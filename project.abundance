@@ -1,0 +1,15 @@
+{
+    "atomType": "Molecule",
+    "name": "Hexagon_Grid",
+    "x": 0,
+    "y": 0,
+    "uniqueID": "0bb6d8d6-2c29-4a19-b4cc-867b30731d98",
+    "ioValues": [],
+    "topLevel": true,
+    "allAtoms": [],
+    "allConnectors": [],
+    "unitsKey": "Unitless",
+    "fileTypeVersion": 1,
+    "compiledBom": {},
+    "filetypeVersion": 1
+}
