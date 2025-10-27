@@ -1,15 +1,405 @@
 {
-    "atomType": "Molecule",
-    "name": "Hexagon_Grid",
-    "x": 0,
-    "y": 0,
-    "uniqueID": "0bb6d8d6-2c29-4a19-b4cc-867b30731d98",
-    "ioValues": [],
-    "topLevel": true,
-    "allAtoms": [],
-    "allConnectors": [],
-    "unitsKey": "Unitless",
-    "fileTypeVersion": 1,
-    "compiledBom": {},
-    "filetypeVersion": 1
+  "atomType": "Molecule",
+  "name": "Molecule",
+  "x": 0,
+  "y": 0,
+  "uniqueID": "9d8e8000-9e41-4599-86c1-40e91f1b251b",
+  "ioValues": [
+    {
+      "name": "Hexagon Dameter",
+      "ioValue": 30,
+      "currentEquation": "30"
+    },
+    {
+      "name": "X Length",
+      "ioValue": 300,
+      "currentEquation": "300"
+    },
+    {
+      "name": "Y Length",
+      "ioValue": 300,
+      "currentEquation": "300"
+    }
+  ],
+  "topLevel": true,
+  "allAtoms": [
+    {
+      "atomType": "Input",
+      "name": "Hexagon Dameter",
+      "x": 0.029699999999999997,
+      "y": 0.3231197771587744,
+      "uniqueID": "63b69953-f87e-4ce9-8bad-e6218871d2ed",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "name": "X Length",
+      "x": 0.029699999999999997,
+      "y": 0.48467966573816157,
+      "uniqueID": "ae2e8a7d-3c13-43d3-8b02-42ef2ca5185a",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "Input",
+      "name": "Y Length",
+      "x": 0.029699999999999997,
+      "y": 0.6768802228412256,
+      "uniqueID": "2a5fd728-5d3a-4c04-97e3-9f0cab157877",
+      "ioValues": [],
+      "type": "number"
+    },
+    {
+      "atomType": "RegularPolygon",
+      "name": "RegularPolygon",
+      "x": 0.21693121693121695,
+      "y": 0.4428969359331476,
+      "uniqueID": "f432646b-dc7b-4091-b987-21451f4b2c94",
+      "ioValues": [
+        {
+          "name": "number of sides",
+          "ioValue": 6
+        },
+        {
+          "name": "diameter",
+          "ioValue": 30
+        }
+      ]
+    },
+    {
+      "atomType": "Rectangle",
+      "name": "Rectangle",
+      "x": 0.17195767195767198,
+      "y": 0.7855153203342619,
+      "uniqueID": "66ec58d6-6682-45e3-9468-3092b55d8c31",
+      "ioValues": [
+        {
+          "name": "x length",
+          "ioValue": 300
+        },
+        {
+          "name": "y length",
+          "ioValue": 300
+        }
+      ]
+    },
+    {
+      "atomType": "GitHubMolecule",
+      "name": "Linear-Pattern",
+      "x": 0.3525132275132275,
+      "y": 0.4512534818941504,
+      "uniqueID": "f6bc2f48-c5ed-4fe0-91fb-3e6f2d1a6647",
+      "ioValues": [
+        {
+          "name": "Number",
+          "ioValue": 4
+        },
+        {
+          "name": "distX",
+          "ioValue": 30,
+          "currentEquation": "10"
+        },
+        {
+          "name": "distY",
+          "ioValue": 0,
+          "currentEquation": "0"
+        },
+        {
+          "name": "distZ",
+          "ioValue": 0,
+          "currentEquation": "0"
+        }
+      ],
+      "topLevel": false,
+      "allAtoms": [
+        {
+          "atomType": "Output",
+          "name": "Output",
+          "x": 0.98,
+          "y": 0.5,
+          "uniqueID": "861e6227-8832-42a6-805a-a91a5f8cb759",
+          "ioValues": []
+        },
+        {
+          "atomType": "Rectangle",
+          "name": "Rectangle",
+          "x": 0.27976190476190477,
+          "y": 0.2116991643454039,
+          "uniqueID": "a7c82ad0-af10-44b4-aaa4-5266fdf69e28",
+          "ioValues": [
+            {
+              "name": "x length",
+              "ioValue": 10
+            },
+            {
+              "name": "y length",
+              "ioValue": 10
+            }
+          ]
+        },
+        {
+          "atomType": "Input",
+          "name": "Number",
+          "x": 0.029699999999999997,
+          "y": 0.18,
+          "uniqueID": "6b6b60c1-cb4b-45dd-9416-bfd8b540a4da",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "name": "Geometry",
+          "x": 0.029699999999999997,
+          "y": 0.27,
+          "uniqueID": "d7272c9f-a1fd-461d-a8d6-3d719cfdeb98",
+          "ioValues": [],
+          "type": "geometry"
+        },
+        {
+          "atomType": "Code",
+          "name": "Code",
+          "x": 0.4901746724890829,
+          "y": 0.7515151515151516,
+          "uniqueID": "14adbb6e-0e45-4581-a951-39d0196e98db",
+          "ioValues": [
+            {
+              "name": "Number",
+              "ioValue": 4
+            },
+            {
+              "name": "distX",
+              "ioValue": 30
+            },
+            {
+              "name": "distY",
+              "ioValue": 0
+            },
+            {
+              "name": "distZ",
+              "ioValue": 0
+            }
+          ],
+          "codeVersion": 1,
+          "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
+        },
+        {
+          "atomType": "Input",
+          "name": "distX",
+          "x": 0.029699999999999997,
+          "y": 0.36,
+          "uniqueID": "41871188-1ae1-4db5-b837-529b34fd4550",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "name": "distY",
+          "x": 0.029699999999999997,
+          "y": 0.44999999999999996,
+          "uniqueID": "33ea11ea-4e00-4f91-9213-e416d4ca518f",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "Input",
+          "name": "distZ",
+          "x": 0.029699999999999997,
+          "y": 0.5399999999999999,
+          "uniqueID": "1eb7002d-dc9e-4012-a349-b485781bce7b",
+          "ioValues": [],
+          "type": "number"
+        },
+        {
+          "atomType": "Readme",
+          "name": "README",
+          "x": 0.7794759825327511,
+          "y": 0.2787878787878788,
+          "uniqueID": "43cfdfad-ed2d-400e-a740-aa47e1db83d3",
+          "ioValues": [],
+          "readMeText": "Readme text here",
+          "global": true
+        },
+        {
+          "atomType": "Code",
+          "name": "Code",
+          "x": 0.6091703056768559,
+          "y": 0.28787878787878785,
+          "uniqueID": "f23161e8-559e-4ad7-aaa3-15be065725a7",
+          "ioValues": [
+            {
+              "name": "Number",
+              "ioValue": 5
+            },
+            {
+              "name": "distX",
+              "ioValue": 15
+            },
+            {
+              "name": "distY",
+              "ioValue": 2
+            },
+            {
+              "name": "distZ",
+              "ioValue": 0
+            }
+          ],
+          "codeVersion": 1,
+          "code": "//Inputs:[Shape, Number, distX, distY, distZ];\n\n\nlet shapesArray = [];\nfor (let i = 0; i < Number; i++) {\n    let rotatedShape = await Move(Shape, distX * i, distY * i,distZ * i);\n    shapesArray.push(rotatedShape);\n}\n\nlet assembledShape = await Assembly(shapesArray)\n\nreturn assembledShape;\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n    /**\n    To Use the Code Atom, enter your inputs to the input list a.e Inputs:[shape, height]\n    If your input is connected to another atom with a replicad geometry you can access its geometry by looking up its ID in your library. a.e library[Input1].geometry[0] \n    Use any replicad available methods to modify your geometry. Learn more about all of the available methods at \n    https://replicad.xyz/docs/introapp/UserGuide.html \n    Return a replicad object that includes geometry, color, tags and plane. \n\n\n    Example Code Atom:\n\n      Inputs:[shape, x];\n\n      let finalShape = library[shape].geometry[0].clone.translate[x,0,0]\n\n      return {geometry: finalShape, color: library[shape].color, plane: library[shape].plane, tags: library[shape].tags }\n\n      - See more examples at _______ \n\n\n    */\n"
+        },
+        {
+          "atomType": "Extrude",
+          "name": "Extrude",
+          "x": 0.39847161572052403,
+          "y": 0.396969696969697,
+          "uniqueID": "f8d9bd9e-a023-434d-b1ed-657b250f89b5",
+          "ioValues": [
+            {
+              "name": "height",
+              "ioValue": 10
+            }
+          ]
+        }
+      ],
+      "allConnectors": [
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "geometry",
+          "ap1ID": "a7c82ad0-af10-44b4-aaa4-5266fdf69e28",
+          "ap2ID": "f8d9bd9e-a023-434d-b1ed-657b250f89b5"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "Number",
+          "ap1ID": "6b6b60c1-cb4b-45dd-9416-bfd8b540a4da",
+          "ap2ID": "14adbb6e-0e45-4581-a951-39d0196e98db"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "Shape",
+          "ap1ID": "d7272c9f-a1fd-461d-a8d6-3d719cfdeb98",
+          "ap2ID": "14adbb6e-0e45-4581-a951-39d0196e98db"
+        },
+        {
+          "ap1Name": "output",
+          "ap2Name": "number or geometry",
+          "ap1ID": "14adbb6e-0e45-4581-a951-39d0196e98db",
+          "ap2ID": "861e6227-8832-42a6-805a-a91a5f8cb759"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "distX",
+          "ap1ID": "41871188-1ae1-4db5-b837-529b34fd4550",
+          "ap2ID": "14adbb6e-0e45-4581-a951-39d0196e98db"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "distY",
+          "ap1ID": "33ea11ea-4e00-4f91-9213-e416d4ca518f",
+          "ap2ID": "14adbb6e-0e45-4581-a951-39d0196e98db"
+        },
+        {
+          "ap1Name": "number or geometry",
+          "ap2Name": "distZ",
+          "ap1ID": "1eb7002d-dc9e-4012-a349-b485781bce7b",
+          "ap2ID": "14adbb6e-0e45-4581-a951-39d0196e98db"
+        },
+        {
+          "ap1Name": "output",
+          "ap2Name": "geometry",
+          "ap1ID": "f23161e8-559e-4ad7-aaa3-15be065725a7",
+          "ap2ID": "43cfdfad-ed2d-400e-a740-aa47e1db83d3"
+        },
+        {
+          "ap1Name": "geometry",
+          "ap2Name": "Shape",
+          "ap1ID": "f8d9bd9e-a023-434d-b1ed-657b250f89b5",
+          "ap2ID": "f23161e8-559e-4ad7-aaa3-15be065725a7"
+        }
+      ],
+      "parentRepo": {
+        "lastFoundGit": "2025-10-27T15:47:14.954Z",
+        "privateRepo": false,
+        "repoName": "Linear-Pattern",
+        "dateCreated": "2025-02-19T00:40:13Z",
+        "likes": 0,
+        "readMe": "https://raw.githubusercontent.com/alzatin/Linear-Pattern/master/README.md?sanitize=true",
+        "yyyy": 2025,
+        "topMoleculeID": 1739925613779,
+        "githubMoleculesUsed": [],
+        "html_url": "https://github.com/alzatin/Linear-Pattern",
+        "topics": [
+          "abundance-tool"
+        ],
+        "parentRepo": "BarbourSmith/Linear-Pattern",
+        "forks": 0,
+        "dateModified": "739518",
+        "ranking": 11.4,
+        "searchField": "linear-pattern alzatin returns the input shape formed into an assembly translated n times abundance-tool",
+        "owner": "alzatin",
+        "description": "Returns the input shape formed into an assembly translated n times",
+        "contentURL": "https://raw.githubusercontent.com/alzatin/Linear-Pattern/master/project.abundance?sanitize=true",
+        "svgURL": "https://raw.githubusercontent.com/alzatin/Linear-Pattern/master/project.svg?sanitize=true",
+        "isLocal": false
+      },
+      "unitsKey": "MM",
+      "fileTypeVersion": 1,
+      "compiledBom": []
+    },
+    {
+      "atomType": "Equation",
+      "name": "D/2+.5*D",
+      "x": 0.17857142857142858,
+      "y": 0.1392757660167131,
+      "uniqueID": "e067da65-e2dc-4260-940f-e797bc35017f",
+      "ioValues": [
+        {
+          "name": "D",
+          "ioValue": 30
+        }
+      ],
+      "currentEquation": "D/2+.5*D"
+    }
+  ],
+  "allConnectors": [
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "diameter",
+      "ap1ID": "63b69953-f87e-4ce9-8bad-e6218871d2ed",
+      "ap2ID": "f432646b-dc7b-4091-b987-21451f4b2c94"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "D",
+      "ap1ID": "63b69953-f87e-4ce9-8bad-e6218871d2ed",
+      "ap2ID": "e067da65-e2dc-4260-940f-e797bc35017f"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "x length",
+      "ap1ID": "ae2e8a7d-3c13-43d3-8b02-42ef2ca5185a",
+      "ap2ID": "66ec58d6-6682-45e3-9468-3092b55d8c31"
+    },
+    {
+      "ap1Name": "number or geometry",
+      "ap2Name": "y length",
+      "ap1ID": "2a5fd728-5d3a-4c04-97e3-9f0cab157877",
+      "ap2ID": "66ec58d6-6682-45e3-9468-3092b55d8c31"
+    },
+    {
+      "ap1Name": "geometry",
+      "ap2Name": "Geometry",
+      "ap1ID": "f432646b-dc7b-4091-b987-21451f4b2c94",
+      "ap2ID": "f6bc2f48-c5ed-4fe0-91fb-3e6f2d1a6647"
+    },
+    {
+      "ap1Name": "result",
+      "ap2Name": "distX",
+      "ap1ID": "e067da65-e2dc-4260-940f-e797bc35017f",
+      "ap2ID": "f6bc2f48-c5ed-4fe0-91fb-3e6f2d1a6647"
+    }
+  ],
+  "fileTypeVersion": 1,
+  "compiledBom": {},
+  "filetypeVersion": 1
 }
